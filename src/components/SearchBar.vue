@@ -1,6 +1,7 @@
 <template>
   <div class="text-center">
     <input class="w-75" type="text" v-on:keydown.enter="onInput" />
+    <!-- <input class="w-75" type="text" v-on:input="onInput"> -->
   </div>
 </template>
 
